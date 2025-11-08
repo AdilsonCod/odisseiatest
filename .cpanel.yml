@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home4/hg1c7475/public_html/
+    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp .env.example $DEPLOYPATH
